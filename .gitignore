@@ -1,0 +1,16 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python / Virtualenvs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Deployment artifacts
+deployment_metadata.json
+*.tar.gz
